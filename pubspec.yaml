@@ -1,0 +1,25 @@
+name: kosfinder_device_demo
+description: "KosFinder Device Demo - Standalone Mobile Features Demo (Worksheet 10)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  geolocator: ^13.0.2
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.3
+  sensors_plus: ^4.0.2
+  supabase_flutter: ^2.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
